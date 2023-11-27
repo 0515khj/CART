@@ -49,7 +49,7 @@ const Cart = () => {
      }
 
      const onDelAll =()=>{
-       setData([])      // 전체삭제 존나간단함 그냥 공백처리로 만들어버리면댐
+       setData([])      // 전체삭제 존나간단함 
      }
 
      const onEdit =(id) =>{
