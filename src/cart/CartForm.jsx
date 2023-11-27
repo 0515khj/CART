@@ -1,8 +1,6 @@
-import { useState } from "react";
 
 const CartForm = ({onSubmit,cart,cp,textref,isEdit}) => {
     const {text,price,amount} = cart
-    const [isShow ,setIsShow] =useState(false)
 
     
 
